@@ -21,7 +21,7 @@ body {
 	/*font-size: 62.5%;			 This sets the default font size to be equivalent to 10px */
 	font-size: 10px;
 	margin: 0;
-	padding: 12px 0;
+	padding: 0 0 12px;
 }
 
 h1 {
@@ -185,12 +185,24 @@ a#logo:hover {
 .headerbar {
 	background: #ebebeb none repeat-x 0 0;
 	color: #FFFFFF;
-	margin-bottom: 4px;
-	padding: 0 5px;
+	overflow: hidden;
+	padding: 0 5px 5px;
 }
 
 .navbar {
 	background-color: #ebebeb;
+	overflow: hidden;
+	padding: 5px 10px;
+}
+
+#wrap .navbar {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+}
+
+#page-footer .navbar {
 	padding: 0 10px;
 }
 
@@ -321,7 +333,6 @@ ul.linklist li.rightside, p.rightside {
 ul.navlinks {
 	padding-bottom: 1px;
 	margin-bottom: 1px;
-	border-bottom: 1px solid #FFFFFF;
 	font-weight: bold;
 }
 

@@ -678,6 +678,7 @@ a.sendemail {
 
 a.fontsize {
 	background-image: url("{T_THEME_PATH}/images/icon_fontsize.gif");
+	margin-top: 0.3em;
 }
 
 /* Icon images

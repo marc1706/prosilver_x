@@ -59,6 +59,11 @@ html>body dd label input { vertical-align: text-bottom; }	/* Align checkboxes/ra
 	overflow: hidden;
 }
 
+div.linklist {
+	height: 4%;
+	overflow: hidden;
+}
+
 /* Simple fix so forum and topic lists always have a min-height set, even in IE6
 	From http://www.dustindiaz.com/min-height-fast-hack */
 dl.icon {

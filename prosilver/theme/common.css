@@ -186,7 +186,7 @@ a#logo:hover {
 	background: #ebebeb none repeat-x 0 0;
 	color: #FFFFFF;
 	overflow: hidden;
-	padding: 0 5px 5px;
+	padding: 5px;
 }
 
 .navbar {
@@ -328,6 +328,10 @@ ul.linklist li.rightside, p.rightside {
 	margin-right: 0;
 	margin-left: 5px;
 	text-align: right;
+}
+
+.navlinks li.rightside {
+	padding-top: 5px;
 }
 
 ul.navlinks {

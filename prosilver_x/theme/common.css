@@ -59,7 +59,7 @@ body {
 	font-size: 10px;
 	line-height: normal;
 	margin: 0;
-	padding: 12px 0;
+	padding: 0 0 12px;
 }
 
 h1 {
@@ -250,9 +250,7 @@ a#logo:hover {
 ---------------------------------------- */
 .headerbar {
 	background: transparent none repeat-x 0 0;
-	margin-bottom: 4px;
 	padding: 5px;
-	border-radius: 7px;
 }
 
 .navbar {
@@ -301,6 +299,20 @@ a#logo:hover {
 	margin: 5px 5px 2px 5px;
 }
 
+#page-header .navbar {
+	border-radius: 0;
+}
+
+#wrap .navbar {
+	border-radius: 0; /* reset border radius */
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+#page-footer .navbar {
+	border-radius: 7px; /* change back to default radius */
+}
+
 /* Horizontal lists
 ----------------------------------------*/
 ul.linklist {
@@ -334,8 +346,11 @@ ul.linklist li.rightside, p.rightside {
 ul.navlinks {
 	padding-bottom: 1px;
 	margin-bottom: 1px;
-	border-bottom: 1px solid transparent;
 	font-weight: bold;
+}
+
+ul.navlinks li.rightside {
+	padding-top: 4px;
 }
 
 ul.leftside {
